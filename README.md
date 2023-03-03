@@ -22,3 +22,14 @@ const APP_ID: &str = "cli_a48a68fdjs7b8500d";
 const APP_SECRET: &str = "Yj8SWiGsoxGk0yj2txYHmcjofdsOSj";
 ```
 
+
+
+## 运行
+
+`cargo run`
+
+## 编译
+
+`cargo build`
+
+`cargo build --release`
