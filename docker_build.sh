@@ -1,0 +1,1 @@
+docker run --rm --user "$(id -u)":"$(id -g)" -v "$PWD":/usr/src/lark_chatgpt -w /usr/src/lark_chatgpt rust:1.67.1 cargo build --release

@@ -1,0 +1,20 @@
+[feishu]
+LARK_HOST = "https://open.feishu.cn"
+Verification_Token = "iiTAxxxxhqGfsOgDogL0uvgMOnxSdGOnC"
+APP_ID = "cli_a48a687d0abxxxxxx"
+APP_SECRET = "Yj8SWiGMz5p09Ul5xxxxxxxxxx"
+BOT_NAME = "your_bot_name"
+
+[gpt]
+URL = "https://api.openai.com/v1/chat/completions"
+API_KEY = "sk-3tyG7e8uVPG3wyEhtE0VT3BlbkFJMERjmuGvcH4IFxxxxx"
+CONTEXT_LIMIT = 5
+
+    [gpt.body]
+    model = "gpt-3.5-turbo"
+    temperature = 0.9
+    max_tokens = 2048
+
+[Host]
+IP = "0.0.0.0"
+Port = 3000
